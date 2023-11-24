@@ -29,7 +29,7 @@ workflows:
       - tests:
           requires:
             - build
-       - deploy:
+      - deploy:
            requires:
              - tests
            filters:
