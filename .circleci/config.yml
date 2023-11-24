@@ -23,7 +23,7 @@ jobs:
 
   
 workflows:
-  build_and_tests:
+  build_and_tests_deploy:
     jobs:
       - build
       - tests:
